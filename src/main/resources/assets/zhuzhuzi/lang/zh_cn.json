@@ -1,4 +1,10 @@
 {
   "creativetab.examplemod.zhuzhuzi_tab": "蜘蛛子模组",
-  "item.zhuzhuzi.zhuzhuzi": "蜘蛛子"
+  "item.zhuzhuzi.zhuzhuzi": "蜘蛛子",
+
+
+  "item.zhuzhuzi.zhuzhuzi_helmet": "蜘蛛头盔",
+  "item.zhuzhuzi.zhuzhuzi_chestplate": "蜘蛛胸甲",
+  "item.zhuzhuzi.zhuzhuzi_leggings": "蜘蛛护腿",
+  "item.zhuzhuzi.zhuzhuzi_boots": "蜘蛛靴子"
 }

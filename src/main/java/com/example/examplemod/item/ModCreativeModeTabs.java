@@ -20,6 +20,11 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.ZHUZHUZI.get());
 
+                        output.accept(ModItems.ZHUZHUZI_HELMET.get());
+                        output.accept(ModItems.ZHUZHUZI_CHESTPLATE.get());
+                        output.accept(ModItems.ZHUZHUZI_LEGGINGS.get());
+                        output.accept(ModItems.ZHUZHUZI_BOOTS.get());
+
 
 
 

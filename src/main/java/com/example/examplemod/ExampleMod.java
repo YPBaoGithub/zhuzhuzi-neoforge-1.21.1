@@ -4,6 +4,8 @@ package com.example.examplemod;
 
 
 import com.example.examplemod.block.ModBlocks;
+import com.example.examplemod.entty.ModEntities;
+import com.example.examplemod.item.ModArmor;
 import com.example.examplemod.item.ModCreativeModeTabs;
 import com.example.examplemod.item.ModItems;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -36,7 +38,7 @@ public class ExampleMod {
         ModItems.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
         ModBlocks.register(modEventBus);
-
+        ModEntities.register(modEventBus);
 
 
 
