@@ -5,12 +5,17 @@ package com.example.examplemod;
 
 import com.example.examplemod.block.ModBlocks;
 import com.example.examplemod.entty.ModEntities;
+
+import com.example.examplemod.entty.client.bianpaoRenderer;
 import com.example.examplemod.item.ModArmor;
 import com.example.examplemod.item.ModCreativeModeTabs;
 import com.example.examplemod.item.ModItems;
+import net.minecraft.client.renderer.entity.EntityRenderer;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 
+import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -60,6 +65,8 @@ public class ExampleMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            EntityRenderers.register(ModEntities.BIANPAO.get(), bianpaoRenderer::new);
         }
     }
+
 }
