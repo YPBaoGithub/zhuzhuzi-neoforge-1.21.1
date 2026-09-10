@@ -19,7 +19,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.examplemod.zhuzhuzi_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.ZHUZHUZI.get());
-                        output.accept(ModItems.BIANPAO.get());
+                        output.accept(ModItems.BROOM.get());
 
                         output.accept(ModItems.ZHUZHUZI_HELMET.get());
                         output.accept(ModItems.ZHUZHUZI_CHESTPLATE.get());

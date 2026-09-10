@@ -4,9 +4,7 @@ package com.example.examplemod;
 
 
 import com.example.examplemod.block.ModBlocks;
-import com.example.examplemod.entty.ModEntities;
 
-import com.example.examplemod.entty.client.bianpaoRenderer;
 import com.example.examplemod.item.ModArmor;
 import com.example.examplemod.item.ModCreativeModeTabs;
 import com.example.examplemod.item.ModItems;
@@ -43,7 +41,7 @@ public class ExampleMod {
         ModItems.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
         ModBlocks.register(modEventBus);
-        ModEntities.register(modEventBus);
+
 
 
 
@@ -65,7 +63,7 @@ public class ExampleMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-            EntityRenderers.register(ModEntities.BIANPAO.get(), bianpaoRenderer::new);
+
         }
     }
 

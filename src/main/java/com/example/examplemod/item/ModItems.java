@@ -29,8 +29,8 @@ public class ModItems {
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(19))));
 
 
-    public static final DeferredItem<Item> BIANPAO = ITEMS.register("bianpao",
-            () -> new bianpaoItem(new Item.Properties().stacksTo(16)));
+    public static final DeferredItem<Item> BROOM = ITEMS.register("broom",
+            () -> new broomItem(new Item.Properties()));
 
 
 
